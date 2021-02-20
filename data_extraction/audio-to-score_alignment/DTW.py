@@ -2,15 +2,15 @@ from __future__ import print_function
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-# mfrom midi2audio import FluidSynth
+from midi2audio import FluidSynth
 # import librosa
 import librosa.display
 
 mid = "/Users/andrea/Documents/DHDK/Thesis/MIDI/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen.mid"
 out = "/Users/andrea/Documents/DHDK/Thesis/MIDI/midi.wav"
 # using the default sound font in 44100 Hz sample rate
-#fs = FluidSynth()
-#fs.midi_to_audio(mid, out)
+fs = FluidSynth()
+fs.midi_to_audio(mid, out)
 
 wav_1 = '/Users/andrea/Documents/DHDK/Thesis/Ontology Data/audio.wav'
 wav_2 = '/Users/andrea/Documents/DHDK/Thesis/Ontology Data/exported.wav'
