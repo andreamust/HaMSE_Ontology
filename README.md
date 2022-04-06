@@ -25,6 +25,9 @@ In particular, we have used the DTW algorithm provided by the [Librosa](https://
 More specifically, the symbolic notation has been converted to audio signal using the [Midi2audio library](https://github.com/bzamecnik/midi2audio).
 The two signals have been then aligned using the DTW algorithm. 
 This is an example of the alignment between two tracks:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44606182/162035008-a2ef16d5-6e45-41e5-88e0-c4055d94ae77.png" alt="Alignment Between Songs through DTW" width="700"/>
+</p>
 
 ### Emotional Features
 
@@ -33,8 +36,9 @@ The dataset chosen for this task is the 4Q audio emotion dataset30 provided by t
 These groups are defined according to the four quadrants of Russell’s model. James A. Russell in 1980 introduced a Circumplex Model of Affect (Russell 1980) that aimed at spatially representing interrelations between affective dimensions.
 
 The best performance in training the model (77.2% in accuracy) were obtained using a Convolutional Recurrent Network, which layers were organised as follows:
-
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44606182/162035266-953ff394-1cf3-407d-a3f8-a1d5a3f9f40c.png" alt="RCNN architecture" width="900"/>
+</p>
 
 ### Melodic Features
 Extracting melodic features means horizontally investigating the music data, analysing what is functional to the melody.
