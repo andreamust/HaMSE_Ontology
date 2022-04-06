@@ -1,0 +1,12 @@
+librosa
+midi2audio
+numpy
+matplotlib
+music21
+pychord
+re
+vis
+csv
+sklearn
+tensorflow
+msaf
