@@ -12,6 +12,8 @@ More specifically, the repository three main types of resources:
 ## Data Extraction Algorithms
 The data extraction algorithms are divided into five main categories, aiming at extracting five different types of musical features.
 The image below summarises these categories and the features belonging to each of them:
+![project_structure-Page-2](https://user-images.githubusercontent.com/44606182/162017554-bf518758-3b0c-494b-904b-b4b8e8fa17ff.png)
+
 
 ### Audio-to-score Alignment
 
